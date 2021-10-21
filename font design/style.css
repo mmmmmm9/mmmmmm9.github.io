@@ -5,12 +5,14 @@
 .R{
 	position: absolute;
 	top: 100px;
+	left:100px;
+
 }
+
 
 .R1{
 	width: 40px;
 	height: 350px;
-	left:100px;
 	border: 10px solid black;
 
 }
@@ -18,11 +20,20 @@
 .R2{
 	width: 200px;
 	height: 120px;
-	left:140px;
+	left:40px;
 	top: 40px;
 	transform: rotate(90deg);
 	border-radius: 50% / 100% 100% 0 0;
 	background-color: black;
+    transition: width 1s, height 1s, transform 1s;
+
+}
+
+.R2:hover {
+	background-color: red;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
 }
 
 .R3{
@@ -30,7 +41,7 @@
 	height:0;
 	position:absolute;
 	top:220px;
-	left:180px;
+	left:80px;
 	border-right: 120px solid transparent;
 	border-bottom: 150px solid black;
 
@@ -39,13 +50,14 @@
 .A{
 	position: absolute;
 	top: 100px;
+	left: 100px;
 }
 
 .A1{
 	width:0;
 	height:0;
 	position:absolute;
-	left:350px;
+	left:260px;
 	border-left: 120px solid transparent;
 	border-right: 120px solid transparent;
 	border-bottom: 370px solid black;
@@ -56,7 +68,7 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:350px;
+	left:260px;
 	top: 90px;
 	border-left: 90px solid transparent;
 	border-right: 90px solid transparent;
@@ -68,7 +80,7 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:350px;
+	left:260px;
 	top: 120px;
 	border-left: 80px solid transparent;
 	border-right: 80px solid transparent;
@@ -79,7 +91,7 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:370px;
+	left:280px;
 	top: 165px;
 	border-left: 60px solid transparent;
 	border-right: 60px solid transparent;
@@ -90,13 +102,14 @@
 .N{
 	position: absolute;
 	top: 100px;
+	left:100px;
 }
 
 .N1{
 	width:0;
 	height:0;
 	position:absolute;
-	left:650px;
+	left:560px;
 	border-right:130px solid transparent;
 	border-bottom: 190px solid black;
 
@@ -105,7 +118,7 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:665px;
+	left:575px;
 	top: 50px;
 	border-right:85px solid transparent;
 	border-bottom: 125px solid white;
@@ -116,7 +129,7 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:780px;
+	left:690px;
 	top: 190px;
 	border-left:130px solid transparent;
 	border-top: 190px solid black;
@@ -126,7 +139,7 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:810px;
+	left:720px;
 	top: 205px;
 	border-left:85px solid transparent;
 	border-top: 125px solid white;
@@ -136,7 +149,7 @@
 .N5{
 	width: 170px;
 	height: 110px;
-	left:620px;
+	left:530px;
 	top: 230px;
 	transform: rotate(90deg);
 	border-radius: 50% / 100% 100% 0 0;
@@ -145,7 +158,7 @@
 .N6{
 	width: 170px;
 	height: 110px;
-	left:770px;
+	left:680px;
 	top: 40px;
 	transform: rotate(270deg);
 	border-radius: 50% / 100% 100% 0 0;
@@ -155,12 +168,13 @@
 .G{
 	position: absolute;
 	top: 100px;
+	left:100px;
 }
 
 .G1{
 	width: 370px;
 	height: 130px;
-	left:870px;
+	left:770px;
 	top: 130px;
 	transform: rotate(270deg);
 	border-radius: 50% / 100% 100% 0 0;
@@ -169,17 +183,17 @@
 .G2{
 	width: 370px;
 	height: 130px;
-	left:1000px;
+	left:900px;
 	top: 130px;
 	transform: rotate(90deg);
 	border-radius: 50% / 100% 100% 0 0;
 	background-color: black;
 }
 .G3{
-	width: 330px;
-	height: 110px;
-	left:1010px;
-	top: 140px;
+	width: 300px;
+	height: 100px;
+	left:920px;
+	top: 145px;
 	transform: rotate(90deg);
 	border-radius: 50% / 100% 100% 0 0;
 	background-color: white;
@@ -188,11 +202,64 @@
 	width:0;
 	height:0;
 	position:absolute;
-	left:1150px;
+	left:1050px;
 	top: 160px;
 	transform: rotate(-52.5deg);
 	border-right:100px solid transparent;
 	border-bottom: 130px solid black;
+
+}
+.G5{
+	width: 100px;
+	height: 140px;
+	background: white;
+	left: 1080px;
+	top: 85px;
+}
+
+
+.E{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.E1{
+	width: 40px;
+	height: 350px;
+	left: 1240px;
+	border: 10px solid black;
+
+}
+.E2{
+	width:0;
+	height:0;
+	position:absolute;
+	left:1320px;
+	border-right: 130px solid transparent;
+	border-bottom: 120px solid black;
+
+}
+.E3{
+	width:0;
+	height:0;
+	position:absolute;
+	top:125px;
+	left:1320px;
+	border-right: 130px solid transparent;
+	border-bottom: 120px solid black;
+
+}
+
+
+.E4{
+	width:0;
+	height:0;
+	position:absolute;
+	top:250px;
+	left:1320px;
+	border-right: 130px solid transparent;
+	border-bottom: 120px solid black;
 
 }
 
@@ -221,11 +288,23 @@
 
 
 
-.font{
+
+.title{
 	position: absolute;
 	font-family: Georgia;
 	font-size: 20px;
 	width: 600px;
-	top: 600px;
+	top: 650px;
+	left: 100px;
+
+}
+
+.font{
+	line-height: 30px;
+	position: absolute;
+	font-family: Georgia;
+	font-size: 20px;
+	width: 660px;
+	top: 700px;
 	left: 100px;
 }
