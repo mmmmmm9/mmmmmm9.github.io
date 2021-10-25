@@ -1,0 +1,430 @@
+.letter{
+	position: absolute;
+}
+
+.R{
+	position: absolute;
+	top: 100px;
+	left:100px;
+
+}
+
+
+.R1{
+	width: 40px;
+	height: 350px;
+	border: 10px solid black;
+	transition-delay: 0.5s;
+	transition: all 1s;
+
+}
+.R1:hover{
+	background-color: red;
+	border-color: red;
+}
+
+.R2{
+	width: 200px;
+	height: 120px;
+	left:40px;
+	top: 40px;
+	transform: rotate(90deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+    transition: width 1s, height 1s, transform 1s;
+    transition-delay: 0.5s;
+	transition: all 1s;
+
+}
+
+.R2:hover {
+	background-color: orange;
+    width: 200px;
+    height: 120px;
+    transform: rotate(450deg);
+}
+
+.R3{
+	width:0;
+	height:0;
+	position:absolute;
+	top:220px;
+	left:80px;
+	border-right: 120px solid transparent;
+	border-bottom: 150px solid black;
+
+}
+
+.A{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.A1{
+	width:0;
+	height:0;
+	position:absolute;
+	left:260px;
+	border-left: 120px solid transparent;
+	border-right: 120px solid transparent;
+	border-bottom: 370px solid black;
+
+}
+
+.A2{
+	width:0;
+	height:0;
+	position:absolute;
+	left:260px;
+	top: 90px;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	border-bottom: 280px solid white;
+
+}
+
+.A3{
+	width:0;
+	height:0;
+	position:absolute;
+	left:260px;
+	top: 120px;
+	border-left: 80px solid transparent;
+	border-right: 80px solid transparent;
+	border-bottom: 250px solid black;
+}
+
+.A4{
+	width:0;
+	height:0;
+	position:absolute;
+	left:280px;
+	top: 165px;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	border-bottom: 190px solid white;
+
+}
+
+
+.N{
+	position: absolute;
+	top: 100px;
+	left:100px;
+}
+
+.N1{
+	width:0;
+	height:0;
+	position:absolute;
+	left:560px;
+	border-right:130px solid transparent;
+	border-bottom: 190px solid black;
+
+}
+.N2{
+	width:0;
+	height:0;
+	position:absolute;
+	left:575px;
+	top: 50px;
+	border-right:85px solid transparent;
+	border-bottom: 125px solid white;
+    
+
+}
+
+
+
+.N3{
+	width:0;
+	height:0;
+	position:absolute;
+	left:690px;
+	top: 190px;
+	border-left:130px solid transparent;
+	border-top: 190px solid black;
+
+}
+.N4{
+	width:0;
+	height:0;
+	position:absolute;
+	left:720px;
+	top: 205px;
+	border-left:85px solid transparent;
+	border-top: 125px solid white;
+
+}
+
+.N5{
+	width: 170px;
+	height: 110px;
+	left:530px;
+	top: 230px;
+	transform: rotate(90deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+	transition: width 1s, height 1s, transform 1s;
+	transition-delay: 0.5s;
+	transition: all 1s;
+}
+
+.N5:hover {
+	background-color: yellow;
+    width: 170px;
+    height: 110px;
+    transform: rotate(450deg);
+}
+
+.N6{
+	width: 170px;
+	height: 110px;
+	left:680px;
+	top: 40px;
+	transform: rotate(270deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+	transition: width 1s, height 1s, transform 1s;
+	transition-delay: 0.5s;
+	transition: all 1s;
+}
+.N6:hover {
+	background-color: yellow;
+    width: 170px;
+    height: 110px;
+    transform: rotate(-90deg);
+}
+
+.G{
+	position: absolute;
+	top: 100px;
+	left:100px;
+}
+
+.G1{
+	width: 370px;
+	height: 130px;
+	left:770px;
+	top: 130px;
+	transform: rotate(270deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+	transition: width 1s, height 1s, transform 1s;
+	transition-delay: 0.5s;
+	transition: all 1s;
+
+}
+.G1:after{
+	content: "";
+	position: absolute;
+	width: 310px;
+	height:90px;
+	left:30px;
+	top: 25px;
+	transform: rotate(360deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: white;
+
+}
+
+.G1:hover {
+	background-color: green;
+    width: 370px;
+    height: 130px;
+    transform: rotate(-90deg);
+}
+
+
+.G2{
+	width: 370px;
+	height: 130px;
+	left:900px;
+	top: 130px;
+	transform: rotate(90deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+}
+
+.G3{
+	width: 310px;
+	height: 90px;
+	left:925px;
+	top: 150px;
+	transform: rotate(90deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: white;
+}
+.G4{
+	width:0;
+	height:0;
+	position:absolute;
+	left:1065px;
+	top: 155px;
+	transform: rotate(-53deg);
+	border-right:90px solid transparent;
+	border-bottom: 120px solid black;
+
+}
+.G5{
+	width: 90px;
+	height: 105px;
+	background: white;
+	left: 1080px;
+	top: 110px;
+}
+
+
+.E{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+
+.E1{
+	width: 40px;
+	height: 350px;
+	left: 1240px;
+	border: 10px solid black;
+	transition-delay: 0.5s;
+	transition: all 1s;
+
+}
+.E1:hover{
+	background-color: cyan;
+	border-color: cyan;
+}
+
+.E2{
+	width:0;
+	height:0;
+	position:absolute;
+	left:1320px;
+	border-right: 130px solid transparent;
+	border-bottom: 120px solid black;
+
+}
+.E3{
+	width:0;
+	height:0;
+	position:absolute;
+	top:125px;
+	left:1320px;
+	border-right: 130px solid transparent;
+	border-bottom: 120px solid black;
+
+}
+
+
+.E4{
+	width:0;
+	height:0;
+	position:absolute;
+	top:250px;
+	left:1320px;
+	border-right: 130px solid transparent;
+	border-bottom: 120px solid black;
+
+}
+
+.S{
+	position: absolute;
+	left: 100px;
+}
+.S1{
+	width: 40px;
+	height: 130px;
+	left: 1635px;
+	top: 70px;
+	border: 10px solid black;
+	transform: rotate(70deg);
+	transition-delay: 0.5s;
+	transition: all 1s;
+
+}
+.S1:hover{
+	background-color: purple;
+	border-color: purple;
+}
+
+
+.S2{
+	width: 180px;
+	height: 120px;
+	left:1475px;
+	top: 185px;
+	transform: rotate(-110deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+	transition-delay: 0.5s;
+	transition: all 1s;
+}
+.S2:hover {
+	background-color: blue;
+    width: 180px;
+    height: 120px;
+    transform: rotate(-470deg);
+}
+
+
+.S3{
+	width: 40px;
+	height: 130px;
+	top: 330px;
+	left: 1585px;
+	border: 10px solid black;
+	transform: rotate(70deg);
+	transition-delay: 0.5s;
+	transition: all 1s;
+
+}
+.S3:hover{
+	background-color: purple;
+	border-color: purple;
+}
+
+
+.S4{
+	width: 180px;
+	height: 120px;
+	left:1623px;
+	top: 245px;
+	transform: rotate(70deg);
+	border-radius: 50% / 100% 100% 0 0;
+	background-color: black;
+	transition-delay: 0.5s;
+	transition: all 1s;
+}
+.S4:hover {
+	background-color: blue;
+    width: 180px;
+    height: 120px;
+    transform: rotate(430deg);
+}
+
+
+
+
+.title{
+	position: absolute;
+	font-family: Georgia;
+	font-size: 20px;
+	width: 600px;
+	top: 620px;
+	left: 100px;
+
+}
+.title:hover{
+	color: hotpink;
+}
+
+.font{
+	line-height: 30px;
+	position: absolute;
+	font-family: Georgia;
+	font-size: 20px;
+	width: 660px;
+	top: 660px;
+	left: 100px;
+}
