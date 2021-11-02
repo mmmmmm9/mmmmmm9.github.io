@@ -1,3 +1,4 @@
+
 .letter{
 	position: absolute;
 }
@@ -5,8 +6,8 @@
 .R{
 	position: absolute;
 	top: 100px;
-	left:100px;
-
+	left: 50px;
+   	transform: scale(0.7);
 }
 
 
@@ -58,7 +59,9 @@
 .A{
 	position: absolute;
 	top: 100px;
-	left: 100px;
+	left: 50px;
+	transform: scale(0.7);
+
 }
 
 .A1{
@@ -111,7 +114,8 @@
 .N{
 	position: absolute;
 	top: 100px;
-	left:100px;
+	left: 50px;
+	transform: scale(0.7);
 }
 
 .N1{
@@ -200,14 +204,16 @@
 .G{
 	position: absolute;
 	top: 100px;
-	left:100px;
+	left: 50px;
+	transform: scale(0.7);		
 }
+
 
 .G1{
 	width: 370px;
 	height: 130px;
 	left:770px;
-	top: 130px;
+	top: 125px;
 	transform: rotate(270deg);
 	border-radius: 50% / 100% 100% 0 0;
 	background-color: black;
@@ -216,6 +222,13 @@
 	transition: all 1s;
 
 }
+.G1:hover {
+	background-color: green;
+    width: 370px;
+    height: 130px;
+    transform: rotate(-90deg);
+}
+
 .G1:after{
 	content: "";
 	position: absolute;
@@ -229,19 +242,12 @@
 
 }
 
-.G1:hover {
-	background-color: green;
-    width: 370px;
-    height: 130px;
-    transform: rotate(-90deg);
-}
-
 
 .G2{
 	width: 370px;
 	height: 130px;
 	left:900px;
-	top: 130px;
+	top: 125px;
 	transform: rotate(90deg);
 	border-radius: 50% / 100% 100% 0 0;
 	background-color: black;
@@ -251,7 +257,7 @@
 	width: 310px;
 	height: 90px;
 	left:925px;
-	top: 150px;
+	top: 145px;
 	transform: rotate(90deg);
 	border-radius: 50% / 100% 100% 0 0;
 	background-color: white;
@@ -261,25 +267,26 @@
 	height:0;
 	position:absolute;
 	left:1065px;
-	top: 155px;
+	top: 150px;
 	transform: rotate(-53deg);
 	border-right:90px solid transparent;
 	border-bottom: 120px solid black;
 
 }
 .G5{
-	width: 90px;
-	height: 105px;
+	width: 80px;
+	height: 110px;
 	background: white;
 	left: 1080px;
-	top: 110px;
+	top: 100px;
 }
 
 
 .E{
 	position: absolute;
 	top: 100px;
-	left: 100px;
+	left: 50px;
+	transform: scale(0.7);
 }
 
 .E1{
@@ -329,8 +336,10 @@
 }
 
 .S{
+    top: 35px;
+	left: 50px;
 	position: absolute;
-	left: 100px;
+	transform: scale(0.7);
 }
 .S1{
 	width: 40px;
@@ -405,14 +414,13 @@
 
 
 
-
 .title{
 	position: absolute;
 	font-family: Georgia;
 	font-size: 20px;
 	width: 600px;
-	top: 620px;
-	left: 100px;
+	top: 550px;
+	left: 50px;
 
 }
 .title:hover{
@@ -425,6 +433,8 @@
 	font-family: Georgia;
 	font-size: 20px;
 	width: 660px;
-	top: 660px;
-	left: 100px;
+	top: 600px;
+	left: 50px;
 }
+
+
