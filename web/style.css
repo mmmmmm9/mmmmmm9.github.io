@@ -1,0 +1,142 @@
+.myimg{
+	position:absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background: url("lantern.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+h1{
+	position: absolute;
+	top: -60px;
+	left: 65px;
+	font-size:8vw;
+	font-family: 'Nosifer', cursive;
+	font-weight: 400;
+	color: rgb(242, 35, 15);
+}
+.link{
+	position: absolute;
+	top: 595px;
+	left: 280px;
+	font-size: 20px;
+	font-family: 'Nosifer', cursive;
+	font-weight: 400;
+	color: yellow;
+
+}
+.discount{
+	position: absolute;
+	top: 625px;
+	left: 105px;
+	font-size: 20px;
+	font-family: 'Nosifer', cursive;
+	font-weight: 400;
+	color: rgb(242, 35, 15);
+}
+
+.information1{
+	position: absolute;
+	top:190px;
+	left: 40px;
+	font-size: 30px;
+	font-family: 'Creepster', cursive;
+	color: rgb(255,237,10);
+}
+
+.information2{
+	line-height: 1.5;
+	position: absolute;
+	top:240px;
+	left: 40px;
+	font-size: 25px;
+	font-family: 'Creepster', cursive;
+	color: white;
+}
+
+.admission1{
+	position: absolute;
+	top:190px;
+	left: 770px;
+	font-size: 30px;
+	font-family: 'Creepster', cursive;
+	color: rgb(255,237,10);
+}
+
+.admission2{
+	line-height: 1.8;
+	position: absolute;
+	top:240px;
+	left: 770px;
+	font-size: 25px;
+	font-family: 'Creepster', cursive;
+	color: white;
+}
+
+
+
+
+@media(max-width: 390px){
+h1{
+	line-height: 1.4;
+	font-size:15.5vw;
+	width: 70%;
+	top: -10px;
+	left: 30px;
+}
+.myimg{
+	background: url("Halloween-Wallpapers-4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.link{
+	font-family: 'Balsamiq Sans', cursive;
+	top: -3px;
+	left: 95px;
+	font-size:15px ;
+	color: rgb(33,221,218);
+}
+.discount{
+	font-family: 'Balsamiq Sans', cursive;
+	font-size:15px ;
+	color: rgb(33,221,218);
+	top: 780px;
+	left: 75px;
+	width: 250px;
+	text-align: center;
+
+}
+.information1{
+	top: 410px;
+	font-size: 20px;
+	left: 30px;
+
+}
+.information2{
+	line-height: 1.4;
+	top: 435px;
+	font-size: 20px;
+	left: 30px;
+
+}
+.admission1{
+	top: 620px;
+	font-size: 20px;
+	left: 30px;
+
+}
+.admission2{
+	line-height: 1.4;
+	top: 645px;
+	font-size: 20px;
+	left: 30px;
+
+}
+
+}
+	
