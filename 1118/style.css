@@ -1,0 +1,31 @@
+.boxR {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(200, 20, 42);
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+.boxB {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+
+.inside {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border: 6px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
